@@ -1,2 +1,2 @@
-# my-2nd-brains-aws
+# my-2nd-brain-aws
 AWS
