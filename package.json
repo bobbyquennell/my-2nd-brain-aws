@@ -1,0 +1,21 @@
+{
+  "name": "my-2nd-brain-aws",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lerna": "lerna run ",
+    "bootstrap": "lerna bootstrap",
+    "build": "lerna run build"
+  },
+  "author": "bobby",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "eslint-config-peggy": "^1.0.10",
+    "lerna": "^3.22.1",
+    "prettier": "^2.0.5",
+    "serverless": "^1.75.1",
+    "typescript": "^3.9.7"
+  }
+}

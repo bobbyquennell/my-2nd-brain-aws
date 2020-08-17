@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+      "allowJs": true,
+      "allowSyntheticDefaultImports": true,
+      "baseUrl": "src",
+      "esModuleInterop": true,
+      "importsNotUsedAsValues": "preserve",
+      "lib": ["ES2019"],
+      "module": "CommonJS",
+      "moduleResolution": "Node",
+      "noImplicitAny": true,
+      "outDir": "./dist/",
+      "preserveConstEnums": true,
+      "removeComments": true,
+      "sourceMap": true,
+      "target": "ES2019"
+  },
+  "include": [
+      "services/**/*.ts"
+  ],
+  "exclude": [
+    "**/node_modules",
+    "**/dist",
+    "**/*.test.ts",
+    "**/__test__",
+    "**/__mocks__",
+    "**/.serverless",
+    "**/.vscode"
+  ]
+}
